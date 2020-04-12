@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    
+}
+
+.pick-time, .mood , .player{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.pick-time button {
+    background: transparent;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.pick-time button:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 0.2s ease-in-out;
+}
+
+.pick-time button:focus {
+    outline: none;
+}
+
+.list {
+   
+    color: #000000;
+    font-size: 18px;
+}
+
+.player {
+   
+    position: relative;
+} 
+
+.player svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg) ;
+    height: 50%;
+    pointer-events: none;
+    
+}
+
+.timer {
+    position: absolute;
+    bottom: 10%;
+    color: #ffffff;
+    font-size: 42px;
+   
+}
+
+.mood button{
+    background: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.mood button:focus{
+    outline: none;
+}
+
+.mood img {
+    width: 55px;
+    height: 55px;
+}
+
+.mood button:nth-child(1) {
+    background: #fae06c;
+    opacity: 0.8;
+}
+
+.mood button:nth-child(2){
+    background: #82b2e9;
+    opacity: 0.8;
+
+}
+
+.mood button:nth-child(3) {
+    background: lightgreen;
+    opacity: 0.8;
+
+}
+
+.video{
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    z-index: -99;
+}
+
+
