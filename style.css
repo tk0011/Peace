@@ -14,7 +14,6 @@ body{
     align-items: center;
     height: 100vh;
     padding: 0 20px;
-    
 }
 
 .pick-time, .mood , .player{
@@ -49,7 +48,6 @@ body{
 }
 
 .list {
-   
     color: #000000;
     font-size: 18px;
 }
@@ -65,15 +63,13 @@ body{
     transform: translate(-50%, -50%) rotate(-90deg) ;
     height: 50%;
     pointer-events: none;
-    
 }
 
 .timer {
     position: absolute;
     bottom: 10%;
     color: #ffffff;
-    font-size: 42px;
-   
+    font-size: 42px;  
 }
 
 .mood button{
@@ -108,14 +104,13 @@ body{
 .mood button:nth-child(3) {
     background: lightgreen;
     opacity: 0.8;
-
 }
 
 .video{
     position: fixed;
     top:50%;
     left: 50%;
-    transform : translate(-50%, -50%)
+    transform : translate(-50%, -50%);
     z-index: -99;
 }
 
